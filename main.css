@@ -1,0 +1,50 @@
+#logo-headshot{
+    width:  20%;
+    border-radius: 50%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+}
+.navbar {
+    background: #074d5fcc;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;    
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1.7em !important;
+    color: #fff;
+}
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.644);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #cfcfcfad;
+}
+
+#main-text-block {
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+    text-align:  center;
+}
+
+#main-text-block h1 {
+    font-weight: bold;
+}
+
+.projects-background {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
