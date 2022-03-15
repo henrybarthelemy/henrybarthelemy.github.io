@@ -5,26 +5,32 @@
     border: none;
     vertical-align: middle;
 }
+
 .navbar {
     background: #074d5fcc;
     padding-left: 20px;
     padding-right: 30px;
 }
+
 .nav-link,
 .navbar-brand {
     color: #fff;    
     cursor: pointer;
 }
+
 .nav-link {
     margin-right: 1.7em !important;
     color: #fff;
 }
+
 .nav-link:hover {
     color: rgba(0, 0, 0, 0.644);
 }
+
 .navbar-collapse {
     justify-content: flex-end;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -42,9 +48,12 @@ body {
     font-weight: bold;
 }
 
-.projects-background {
+.projects-container {
     padding: 20px;
-    width: 80%;
     margin: auto;
+    width: 90%
 }
 
+.card {
+    margin-bottom: 30px;
+}
