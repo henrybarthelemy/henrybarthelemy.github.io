@@ -1,0 +1,8 @@
+Todo List:
+- Finish classes page (grid layout of classes taken)
+    -> feature to add later: notes for classes where I have a good note taking track
+- Finish contact page
+- Finish home page
+- Abstract stuff
+    -> the projects with the cards into a easy layout, maybe json to html? (possibly mixing react.js with typescript and cards from bootstrap)
+    -> nav bar (maybe Django??)

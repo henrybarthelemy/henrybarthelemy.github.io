@@ -57,3 +57,37 @@ body {
 .card {
     margin-bottom: 30px;
 }
+.classtable {
+    border: #000000;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.titlerow {
+    background-color: #cfcfcfad;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
+.year {
+    background-color: #e4dedead;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+.class {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.classes {
+    background-color: #e4dedead;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+}
