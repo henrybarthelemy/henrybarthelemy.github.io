@@ -91,3 +91,29 @@ body {
     border-style: solid;
     border-color: #000000;
 }
+.socialcard {
+    display: flex;
+    justify-content: center;
+}
+
+.socialbar {
+    width: 70%;
+}
+
+.socialcardinside {
+    display: flex;
+    justify-content: center;
+    background-color: #6cb7cacc;
+    border-style: solid;
+    border-radius: 15%;
+}
+
+.socialbar a{
+    text-decoration:  none;
+    color: black;
+    padding: 20px;
+}
+
+.resumeinfo {
+    padding-top: 100px;
+}
