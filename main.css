@@ -101,6 +101,10 @@ body {
     width: 70%;
 }
 
+.smaller {
+    width: 40%;
+}
+
 .socialcardinside {
     display: flex;
     justify-content: center;
@@ -117,4 +121,8 @@ body {
 
 .resumeinfo {
     padding-top: 100px;
+}
+
+.social-link {
+    text-decoration: none;
 }

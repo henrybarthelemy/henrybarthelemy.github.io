@@ -5,7 +5,8 @@ const nordle = {
     description: "Developed the popular Wordle game in Java, and a version called Dordle, where the user guesses two words simultaneously. This project is designed with an object-oriented data design structure that allows for easy scaling into any wordle variant.",
     start: "February 2022",
     end: "",
-    image: "images/nordle.png"
+    image: "images/nordle.png",
+    private: false
 }
 
 const lic = {
@@ -14,7 +15,8 @@ const lic = {
     description: "A python game based on movement and falling blocks. Life is currency, also called raining life, was built using the PyGames library where users had to dodge falling blocks, but movement cost them health.",
     start: "May 2019",
     end: "",
-    image: "images/lifeiscurrency.png"
+    image: "images/lifeiscurrency.png",
+    private: false
 }
 
 const tag = {
@@ -23,7 +25,8 @@ const tag = {
     description: "A game programmed in Java using Swing and AWT. The player who is \"it\" after the 30 seconds are over explodes/dies. Coded for a class I was teaching in Java in highschool.",
     start: "May 2019",
     end: "",   
-    image: "images/taggame.png"
+    image: "images/taggame.png",
+    private: false
 }
 
 const seam = {
@@ -32,7 +35,8 @@ const seam = {
     description: "An image editing software created in Java that can resize photos using a liquid rescaling algorithm that incorporates Dijkstra’s algorithm. Created as a homework assignment in Northeasterns CS2510A (Accelerated Fundamentals of Computer Science) program.",
     start: "April 2022",
     end: "",
-    image: "images/seamcarver.png"
+    image: "images/seamcarver.png",
+    private: true
 }
 
 const imgprocessor = {
@@ -41,7 +45,8 @@ const imgprocessor = {
     description: "A Java app which uses Model-View-Controller setup and other object oriented principles. Part of Northeastern's CS3500 (Objected Oriented Design) class. Allows users to edit images they import through a GUI. Includes options to save and import with PPM, BMP, JPG, and PNG",
     start: "June 2022",
     end: "",
-    image: "images/imageprocessing.png"
+    image: "images/imageprocessing.png",
+    private: true
 }
 
 const datastructs = {
@@ -50,7 +55,8 @@ const datastructs = {
     description: "Python implimentation of Binomial Heap, Skip List, Hashmaps, and Red Black Tree data structures. Part of Northeastern's CS5800 (Graduate Algorithms) curriculum.",
     start: "November 2022",
     end: "",
-    image: "images/datastructs.png"
+    image: "images/datastructs.png",
+    private: true
 }
 
 const todoapp = {
@@ -59,10 +65,13 @@ const todoapp = {
     description: "Django webapp which utlizes Bootstrap for front end. Allows users to register and login and create tasks. Once finished they can mark them as finished or delete them.",
     start: "December 2022",
     end: "",
-    image: "images/todolist.png"
+    image: "images/todolist.png",
+    private: false
 }
 
 const obj = [todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
+
+
 
 $(function () {
     htmlContent = "";
@@ -83,15 +92,18 @@ $(function () {
                                 "</div>" +
                                 "<div class='card-footer'>" +
                                     "<p class='card-text'> <small class='text-muted'> " + item.start
+
                 if(item.end != "") {
                     htmlContent += " - " + item.end
                 }
 
-                    htmlContent += " </small></p>" +
-                                    "<a href=" + item.link + " class='btn btn-primary'> See on Github </a>" +
-                                "</div>" +
-                            "</div>" +
-                        "</div>";
+                if (item.private){
+                    htmlContent += " </small></p>" + "<a href='contact.html' class='btn btn-danger'> Contact for Access </a>";
+                } else {
+                    htmlContent += " </small></p>" + "<a href=" + item.link + " class='btn btn-primary'> See on Github </a>" ;
+                }
+                    
+                htmlContent += "</div>" + "</div>" + "</div>";
 
 
 
