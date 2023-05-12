@@ -69,7 +69,27 @@ const todoapp = {
     private: false
 }
 
-const obj = [todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
+const cactusStudy = {
+    name: "Cactus Study",
+    link: "https://github.com/henrybarthelemy/CactusStudy",
+    description: "React webapp utilizing ChakraUI for front end and a python backend using FastAPI, developed during the Boston Hack Beanpot Hackathon with 4 classmates in Feburary 2023.",
+    start: "Feburary 2023",
+    end: "",
+    image: "images/cactusstudy.jpg",
+    private: false
+}
+
+const quizler = {
+    name: "Quizler",
+    link: "https://github.com/henrybarthelemy/Quizzler",
+    description: "React native webapp utilizing open TriviaDB api to quiz users on their trivia knowledge.",
+    start: "May 2023",
+    end: "",
+    image: "images/quizler.png",
+    private: false
+}
+
+const obj = [quizler, cactusStudy, todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
 
 
 
