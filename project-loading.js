@@ -88,8 +88,16 @@ const quizler = {
     image: "images/quizler.png",
     private: false
 }
-
-const obj = [quizler, cactusStudy, todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
+const stamine = {
+    name: "Stamine",
+    link: "https://github.com/henrybarthelemy/Stamine",
+    description: "Next.js app created to understand finite automata by visualizing a state machine. Includes a small domain specific language to allow people to visualize specific transition functions. Also launched using <a href='https://main--stamineproject.netlify.app/statevisualizer'> Netlify </a>",
+    start: "November 2023",
+    end: "December 2023",
+    image: "images/stamine.jpg",
+    private: false
+}
+const obj = [stamine, quizler, cactusStudy, todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
 
 
 
