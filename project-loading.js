@@ -97,7 +97,16 @@ const stamine = {
     image: "images/stamine.jpg",
     private: false
 }
-const obj = [stamine, quizler, cactusStudy, todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
+const pir = {
+    name: "Private Information Retrieval Research",
+    link: "https://github.com/henrybarthelemy/pirispfinal/blob/main/paper.pdf",
+    description: "Paper written as part of my independent research study project in Spring 2024 in my last undergraduate semester",
+    start: "January 2024",
+    end: "May 2024",
+    image: "images/pir.png",
+    private: false
+}
+const obj = [pir, stamine, quizler, cactusStudy, todoapp, datastructs, imgprocessor, seam, nordle, tag, lic]
 
 
 
